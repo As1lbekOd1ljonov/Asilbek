@@ -49,6 +49,7 @@
 # except MyValueError as e:
 #     print(e)
 
+# ===============================================================
 
 # vazifa 2
 # class MyValueError(Exception):
@@ -86,3 +87,31 @@
 #     print(num.num)
 # except MyValueError as e:
 #     print(e)
+
+# ===============================================================
+
+# vazifa 3
+from datetime import datetime, timedelta
+#
+#
+# while True:
+#     commond = input("Buyruqni kiritin (help -> yordam): ").lower()
+#     if commond == "stop":
+#         print("Dastur toxtatildi!!!")
+#         break
+#     elif commond == "bugun":
+#         bugun = datetime.now()
+#         print(f"Bugungi sana {bugun.strftime("%Y-%m-%d")}")
+#         break
+#     elif commond == "oldin":
+#         oldin = datetime.now() - timedelta(days=7)
+#         print(f"7 kun oldingi sana {oldin.strftime("%Y-%m-%d")}")
+#         break
+#     elif commond == "keyin":
+#         keyin = datetime.now() + timedelta(days=7)
+#         print(f"7 kun keyingi sana {keyin.strftime("%Y-%m-%d")}")
+#         break
+#     elif commond == "help":
+#         print(
+#             """ stop ->  toxtatish\n help ->  yordam\n bubun ->  bugungi sana\n keyin ->  7kun keyingi sana\n oldin ->  7kun oldingi sana\n"""
+#         )
