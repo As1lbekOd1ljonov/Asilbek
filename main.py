@@ -133,3 +133,18 @@ from datetime import datetime, timedelta
 #         print(yosh," yosh")
 # except ValueError as e:
 #     print(e)
+
+# ===============================================================
+
+# vazifa 5
+# from datetime import datetime
+#
+# vaqt1 = input("Birinchi vaqtni kiriting (HH:MM:SS): ")
+# vaqt2 = input("Ikkinchi vaqtni kiriting (HH:MM:SS): ")
+#
+# format = "%H:%M:%S"
+# vaqt1_obj = datetime.strptime(vaqt1, format)
+# vaqt2_obj = datetime.strptime(vaqt2, format)
+#
+# farq = abs((vaqt2_obj - vaqt1_obj).total_seconds())
+# print(f"Ikki vaqt oralig'ida jami soniyalar: {int(farq)}")
