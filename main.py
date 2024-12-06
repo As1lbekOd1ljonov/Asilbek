@@ -115,3 +115,21 @@ from datetime import datetime, timedelta
 #         print(
 #             """ stop ->  toxtatish\n help ->  yordam\n bubun ->  bugungi sana\n keyin ->  7kun keyingi sana\n oldin ->  7kun oldingi sana\n"""
 #         )
+
+# ===============================================================
+
+# vazifa 4
+# from datetime import datetime
+# try:
+#     tugilgan_yil = int(input("Tugilga yilingizni kiritin(YYYY -> formatta): "))
+#     tugilgan_oy = int(input("Tugilga oyingizni kiritin(MM -> formatta): "))
+#     tugilgan_kun = int(input("Tugilga kuningizni kiritin(DD -> formatta): "))
+#     bugun = datetime.now()
+#     tugilgan_sana = datetime(tugilgan_yil, tugilgan_oy, tugilgan_kun)
+#     yosh = bugun.year - tugilgan_sana.year
+#     if (bugun.month, bugun.day) == (tugilgan_sana.month, tugilgan_sana.day):
+#         print("Tugilgan kiniz blan🥳🥳🥳")
+#     else:
+#         print(yosh," yosh")
+# except ValueError as e:
+#     print(e)
