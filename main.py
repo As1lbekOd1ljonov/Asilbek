@@ -148,3 +148,14 @@ from datetime import datetime, timedelta
 #
 # farq = abs((vaqt2_obj - vaqt1_obj).total_seconds())
 # print(f"Ikki vaqt oralig'ida jami soniyalar: {int(farq)}")
+
+# ===============================================================
+
+# vazifa 6
+# import math
+#
+# diametr = float(input("Diametrni kiritin: "))
+#
+# radius = diametr / 2
+# yuza = math.pi * radius ** 2
+# print(f"Aylana yuzasi: {yuza}")
