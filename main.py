@@ -159,3 +159,21 @@ from datetime import datetime, timedelta
 # radius = diametr / 2
 # yuza = math.pi * radius ** 2
 # print(f"Aylana yuzasi: {yuza}")
+
+# ===============================================================
+
+# vazifa 7
+# import math
+#
+# try:
+#     num = int(input("Son kiritin: "))
+#
+#     if num > 0:
+#         print(f"Kvadrat ildizi: {math.sqrt(num)}\n"
+#               f"Kub ildizi: {math.pow(num, 1/3)}"
+#               )
+#
+#     else:
+#         raise ValueError("Musbat son kiritin!!!")
+# except  ValueError as e:
+#     print(e)
