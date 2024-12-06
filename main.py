@@ -48,3 +48,41 @@
 #     print(car.cars)
 # except MyValueError as e:
 #     print(e)
+
+
+# vazifa 2
+# class MyValueError(Exception):
+#     pass
+#
+# class NumberDescriptor:
+#     def __get__(self, instance, owner):
+#         return instance.__dict__.get(self.name)
+#
+#     def __set__(self, instance, value):
+#         if value > 0:
+#             instance.__dict__[self.name] = value
+#         else:
+#             raise MyValueError("Musbat son kiritin!!!")
+#
+#     def __delete__(self, instance):
+#         if self.name in instance.__dict__:
+#             del instance.__dict__[self.name]
+#         else:
+#             raise MyValueError(f"{self.name} atributi yo'q.")
+#
+#     def __set_name__(self, owner, name):
+#         self.name = name
+#
+#
+# class Number:
+#     num = NumberDescriptor()
+#
+#     def __init__(self, num):
+#         self.num = num
+#
+# try:
+#     num1 = int(input("son kiritin: "))
+#     num = Number(num1)
+#     print(num.num)
+# except MyValueError as e:
+#     print(e)
