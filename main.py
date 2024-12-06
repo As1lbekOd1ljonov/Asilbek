@@ -177,3 +177,18 @@ from datetime import datetime, timedelta
 #         raise ValueError("Musbat son kiritin!!!")
 # except  ValueError as e:
 #     print(e)
+
+# ===============================================================
+
+# vazifa 8
+# import random
+#
+# royxat = []
+# for i in range(5):
+#     num = random.randint(1, 100)
+#     royxat.append(num)
+# for i in range(3):
+#     num = random.random()
+#     royxat.append(num)
+#
+# print(sum(royxat) / 8)
